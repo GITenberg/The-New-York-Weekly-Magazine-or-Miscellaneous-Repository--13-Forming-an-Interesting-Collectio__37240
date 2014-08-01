@@ -1,0 +1,292 @@
+body {margin-left: 10%; margin-right: 10%;}
+
+div.page {padding-top: 2em; padding-bottom: 2em;}
+
+a {text-decoration: none;}
+a.plain {padding: .15em; font-size: medium;}
+a.tag {vertical-align: 50%; line-height: 80%; padding: .15em;
+font-size: small;}
+a.error {border-bottom: 1px solid red;}
+
+em {font-style: normal;}
+
+
+/* dividing lines */
+
+hr {width: 80%; margin-left: auto; margin-right: auto;
+margin-top: .67em; margin-bottom: .67em; text-align: center;
+border-bottom: 1px solid #333;}
+
+hr.page {margin-top: 3em; margin-bottom: 1.5em; border: 2px solid #999;
+border-bottom: 2px solid #CCC; width: 67%;}
+
+hr.article, p.article {margin-top: 2em; margin-bottom: 1em;
+text-align: center;}
+
+hr.mid {width: 40%;}
+hr.small {width: 30%;}
+hr.tiny {width: 20%;}
+hr.micro {width: 10%;}
+
+p.double, p.twin {margin-left: auto; margin-right: auto;
+margin-top: 2em;
+line-height: .1; margin-bottom: 1em; width: 83%;
+border-top: 2px solid #666; border-bottom: 2px solid #666;}
+
+p.twin {width: 83%; border-top: 2px solid #666;}
+
+p.double {width: 20%; border-top: 4px solid #666;}
+p.double.bottom {margin-top: .67em; margin-bottom: 2em;
+border-top: 2px solid #666; border-bottom: 4px solid #666;}
+
+p.twin.close, p.double.close {margin-top: .67em; margin-bottom: .67em;}
+
+hr.w04 {width: 4%;}
+hr.w06 {width: 6.25%;}
+hr.w075, p.w075 {width: 7.5%;}
+hr.w10 {width: 10%;}
+hr.w12, p.w12 {width: 12.5%;}
+hr.w14, p.twin.w14 {width: 14.29%;}
+hr.w16, p.twin.w16 {width: 16.67%;}
+hr.w20, p.twin.w20 {width: 20%;}
+hr.w25 {width: 25%;}
+hr.w30, p.w30 {width: 30%;}
+hr.w33, p.w33 {width: 33%;}
+hr.w40, p.w40 {width: 40%;}
+hr.w45, p.w45 {width: 45%;}
+hr.w50 {width: 50%;}
+
+hr.full, p.twin.full {width: 100%;}
+
+
+/* general */
+
+h1, h2, h3, h4, h5, h6 {text-align: center; font-style: normal;
+font-weight: normal; line-height: 1;}
+
+h1 {font-size: 200%; margin-top: .5em; margin-bottom: .25em;}
+h2 {font-size: 175%; margin-top: .58em; margin-bottom: .29em;}
+  table.masthead h2 {font-size: 250%;
+  margin-top: .4em; margin-bottom: .6em;}
+h3 {font-size: 150%; margin-top: .67em; margin-bottom: .33em;}
+h4 {font-size: 120%; line-height: 1.2; letter-spacing: .13em;
+margin-top: .83em; margin-bottom: .41em;}
+  h4.ital {font-style: italic;}
+  h4 span.smaller {font-size: 83%; line-height: 1.33;}
+  h4 span.smallest {font-size: 67%; line-height: 1.33;}
+h5 {font-size: 100%; line-height: 1.5;
+margin-top: 1em; margin-bottom: .5em;}
+  div.endnote h5, div.notation h5 {text-align: left; line-height: 1.2;
+  margin-left: 1em; text-indent: -1em;}
+h6 {font-size: 80%; line-height: 1.5;
+margin-top: 1.25em; margin-bottom: .625em;}
+
+div.weather h5 {letter-spacing: .1em;}
+div.index h5 {margin-right: 33%;}
+div.endnote h4, div.endnote h5 {font-weight: bold;
+letter-spacing: normal;}
+
+.three {font-size: 150%; line-height: 1;
+margin-top: .67em; margin-bottom: .33em;}
+.four {font-size: 120%; line-height: 1.25;
+margin-top: .83em; margin-bottom: .41em;}
+.five {font-size: 100%; line-height: 1.5;
+margin-top: 1em; margin-bottom: .5em;}
+.six {font-size: 80%; line-height: 1.875;
+margin-top: 1.25em; margin-bottom: .625em;}
+
+hr + h4, hr + h4.five {margin-top: .4em;}
+p.double + h5, p.twin + h5 {margin-top: .5em;}
+
+
+/* main text */
+
+p {margin-top: .5em; margin-bottom: 0em; line-height: 1.2;}
+
+p.begin {margin-top: 1em;}
+p.begin:first-letter {font-size: 300%; line-height: .4;}
+
+p.inset, div.inset {padding-left: 2em; padding-right: 2em;}
+p.center {text-align: center; margin-left: 1em; margin-right: 1em;}
+p.right {text-align: right; margin-right: 2em;}
+
+p.hanging, div.hanging p {margin-left: 1em; text-indent: -1em;
+margin-right: 2em;}
+div.hanging {margin-top: .5em;}
+div.hanging p {margin-top: 0;}
+
+p.footnote, div.footnote {margin: 2em 1em; font-size: 92%;}
+
+p.illustration {margin: 1em auto; text-align: center;}
+p.decoration {margin-top: 2em; margin-bottom: 1em; text-align: center;}
+p.cover {margin: 4em auto; text-align: center; width: 430px;
+font-family: cursive; font-size: 112%;}
+
+p.smaller {line-height: 1.35; margin-top: .67em}
+p.smallest {line-height: 1.6; margin-top: .75em;}
+
+p.printer {margin-top: 2em; margin-bottom: 4em; padding-top: 1em;
+text-align: center; border-top: 4px double black; font-style: italic;}
+
+
+/* poetry */
+
+div.verse {margin-top: .5em; margin-bottom: .5em; margin-left: auto;
+margin-right: auto; width: 24em;}
+/* unless otherwise noted */
+
+div.verse.w16 {margin-left: auto; width: 16em;}
+div.verse.w20 {margin-left: auto; width: 20em;}
+div.verse.w28 {margin-left: auto; width: 28em;}
+div.verse.w32 {margin-left: auto; width: 32em;}
+
+div.verse.smaller {margin-top: .6em; margin-bottom: .6em;
+margin-left: 4em; font-size: 92%;}
+div.verse p, div.verse table.bracket p
+{margin-top: 0; margin-left: 4em; text-indent: -4em;}
+div.verse p.indent {margin-left: 5em;}
+div.verse p.indent2 {margin-left: 6em;}
+div.verse p.indent3 {margin-left: 7em;}
+div.verse p.indent4 {margin-left: 8em;}
+div.verse p.indent5 {margin-left: 9em;}
+div.verse p.deep {text-indent: 0; margin-left: 10em;}
+
+div.verse p.stanza, div.verse table.bracket p.stanza,
+div.verse p.right {margin-top: .5em;}
+div.verse p.footnote {margin-top: 1em; margin-left: 0; text-indent: 0;}
+
+table.bracket {margin-left: 0; margin-top: 0;
+margin-bottom: 0; margin-right: auto;}
+table.bracket td {padding: 0 .5em 0 0; vertical-align: middle;}
+table.bracket p {line-height: 1.2;}
+
+
+/* tables */
+
+table {margin-left: auto; margin-right: auto;
+margin-top: 1em; margin-bottom: 1em; border-collapse: collapse;
+font-size: inherit; font-family: inherit;}
+
+th {font-weight: normal; font-variant: normal; font-style: normal;
+text-align: center; vertical-align: top; padding: .2em .25em;}
+th.ital, tr.ital th {font-style: italic;}
+
+td {vertical-align: top; text-align: left; padding: .1em;
+line-height: normal;}
+
+table p {margin-top: 0em; margin-left: 1em; text-indent: -1em;
+line-height: inherit;}
+
+td.center, tr.center td {text-align: center;}
+td.right {text-align: right;}
+td.middle {vertical-align: middle;}
+
+td.number {text-align: right;}
+
+td.leftline, col.leftline {border-left: 1px solid black;}
+
+/* masthead */
+
+table.masthead {width: 100%; margin-top: 4em; margin-bottom: 2em;
+border-top: 4px double black; border-bottom: 4px double black;}
+table.masthead.new {border-top: 4px solid black;}
+table.masthead td {padding: .5em .1em;}
+
+tr.mastdate td {border-top: 4px double black; font-variant: small-caps;
+letter-spacing: .1em;}
+tr.topline td {border-top: 1px solid black;}
+
+table.masthead td.micro {line-height: .1; padding: 2px;}
+
+/* index / TOC */
+
+table.index {margin-bottom: 0; width: 100%;}
+table.index + table.index {margin-top: 0;}
+td.letterhead {padding-top: 1em; font-weight: bold; padding-left: 25%;}
+span.floatright {float: right; width: auto;}
+
+table.contents {border: 3px ridge #96F; border-collapse: separate;
+border-spacing: 1em .5em;}
+table.contents td {font-family: sans-serif; font-size: 90%;
+line-height: 1.33;}
+
+table.inline {margin-left: 2em;}
+table.inline td.number {padding-right: 1em;}
+
+/* weather */
+
+div.weather {font-size: 92%; margin-left: auto; margin-right: auto;
+max-width: 36em;}
+
+table.observ td, table.results td {padding: .2em .15em;}
+table.observ td {text-align: center;}
+table.observ td.number {text-align: right;}
+
+table.results td.number {width: 2em; padding-right: .25em;}
+
+tr.ital td {font-style: italic;}
+
+
+/* text formatting */
+
+.smallroman {text-transform: lowercase;}
+.smallcaps, .smallroman {font-variant: small-caps; font-style: normal;
+letter-spacing: .1em;}
+
+span.invisible {visibility: hidden;}
+span.locked {white-space: nowrap;}
+
+/* size and spacing */
+
+.smaller {font-size: 88%;}
+.smallest {font-size: 75%;}
+.larger {font-size: 112%;}
+.largest {font-size: 133%;}
+
+.word1 {word-spacing: 1em;}
+.word1a {word-spacing: 1.5em;}
+.word2 {word-spacing: 2em;}
+.word3 {word-spacing: 3em;}
+
+.extended {letter-spacing: 0.25em; margin-right: -.25em;}
+.super {letter-spacing: .5em; margin-right: -.5em;}
+.giant {letter-spacing: .75em; margin-right: -.75em;}
+
+p.first:first-letter, span.firstletter
+{font-size: 200%; line-height: 50%;}
+span.firstword {text-transform: uppercase;}
+
+
+/* correction popup */
+
+ins.correction {text-decoration: none; border-bottom: thin dotted red;}
+ins.notation {text-decoration: none; border-bottom: thin dotted blue;}
+
+/* page number */
+
+span.pagenum {position: absolute; right: 2%; font-size: small;
+font-weight: normal; font-style: normal; text-align: right;
+text-indent: 0em;}
+
+/* Transcriber's Note */
+
+.mynote {background-color: #DDE; color: #000;
+font-family: sans-serif; font-size: 90%;}
+
+div.mynote {margin: 1em 5%; padding: .5em 1em 1em;}
+p.mynote {margin: 1em 5%; padding: 1em;}
+table.index p.mynote {text-indent: 0; margin: .5em 1em; padding: .5em;}
+
+span.mynote {padding: .1em .2em;}
+
+div.endnote, .crossref, .source {background-color: #EEF;
+color: #000; font-family: sans-serif; font-size: 90%;
+border: 3px ridge #96F;}
+
+p.crossref, div.crossref {margin: .5em 0 1.5em; padding: .5em 1em;
+border-width: 2px;}
+div.source {margin: 1em; padding: .5em 1em 1em;}
+p.source, div.source.hanging {margin: .75em 1em 1em; padding: 1em;}
+/* must override p. and .hanging settings */
+
+div.endnote {margin: 2em 0; padding: .5em 1em 1em;}
