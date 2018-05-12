@@ -1,0 +1,29 @@
+_repo: The-New-York-Weekly-Magazine-or-Miscellaneous-Repository--13-Forming-an-Interesting-Collectio__37240
+_version: 0.1.0
+covers:
+- cover_type: archival
+  image_path: 37240-h/images/cover.jpg
+creator:
+  editors:
+  - agent_name: Bull, John
+    gutenberg_agent_id: '38719'
+    url: http://www.gutenberg.org/2009/agents/38719
+  - agent_name: Burling, Thomas
+    deathdate: 1818
+    gutenberg_agent_id: '38720'
+    url: http://www.gutenberg.org/2009/agents/38720
+description: ''
+gutenberg_issued: '2011-08-28'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '37240'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'American periodicals'
+- !lcc 'AP'
+title: "The New-York Weekly Magazine, or Miscellaneous Repository\r\nForming an Interesting\
+  \ Collection of Original and Select Literary Productions in Prose and Verse"
+url: http://www.gutenberg.org/ebooks/37240
